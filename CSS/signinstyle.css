@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+header nav{
+    border-top:1px solid rgb(234, 234, 234);
+    border-bottom:1px solid rgb(234, 234, 234);
+    margin-bottom:15px;
+    height:47px;
+}
+
+header nav ul{
+    display:inline;
+    
+    
+}
+
+header nav ul li{
+    display:inline;
+    margin-top:7px;
+    margin-left:10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size:25px;
+    color:black;
+    font-weight: bold;
+    
+}
+#loginbtn2:hover{
+    background-color: rgb(128, 128, 128);
+    padding:5px;
+}
+#dplogo{
+    float:left;
+    
+}
+
+#loginbtn{
+    float:right;
+}
+
+body main div form{
+    
+    position: relative;
+    margin:200px  auto  0;
+    text-align: center;
+    
+    
+}
+
+#dblogo{
+    float:left;
+    width:47px;
+    height:47px;
+}
+.input-box{
+    width:320px;
+    display:block;
+    margin:0 auto;
+    clear:;
+}
+.label-input{
+    text-align:center;
+    display:block;
+    margin-top:15px;
+    margin-bottom: 5px;
+    
+    
+}
+button{
+    background-color: rgb(48, 99, 250);
+    border-radius:2px solid rgb(48, 99, 250);
+    height:50px;
+    width:330px;
+    margin-top: 20px;
+    color:white;
+    font-weight:bold;
+    
+}
+button:hover{
+    background-color: rgb(17, 66, 214);
+    border-radius:2px solid rgb(17, 66, 214);
+    
+    
+}
+footer{
+    background-color: black;
+    color:white;
+    margin:350px auto 0px;
+    
+}
+
+.footer-list{
+    display:block;
+    padding:25px;
+    margin:25px 35px;
+    
+}
+footer div {
+    display:inline-block;
+    margin:auto;
+    
+    
+}
+
+footer div ul li{
+    display:block;
+    margin: 0 auto;
+    
+    
+}
+.list-head {
+    font-size:35px;
+}
+footer div ul a {
+    color:white;
+}
+
+@media only screen and (max-width: 500px){
+.col-1-mb {width: 8.33%;}
+.col-2-mb {width: 16.66%;}
+.col-3-mb {width: 25%;}
+.col-4-mb {width: 33.33%;}
+.col-5-mb {width: 41.66%;}
+.col-6-mb {width: 50%;}
+.col-7-mb {width: 58.33%;}
+.col-8-mb {width: 66.66%;}
+.col-9-mb {width: 75%;}
+.col-10-mb {width: 83.33%;}
+.col-11-mb {width: 91.66%;}
+.col-12-mb {width: 100%;}
+}
+@media only screen and (min-width: 500px) {
+      
+.col-1-tb {width: 8.33%;}
+.col-2-tb {width: 16.66%;}
+.col-3-tb {width: 25%;}
+.col-4-tb {width: 33.33%;}
+.col-5-tb {width: 41.66%;}
+.col-6-tb {width: 50%;}
+.col-7-tb {width: 58.33%;}
+.col-8-tb {width: 66.66%;}
+.col-9-tb {width: 75%;}
+.col-10-tb {width: 83.33%;}
+.col-11-tb {width: 91.66%;}
+.col-12-tb {width: 100%;}
+ }
+@media only screen and (min-width:1000px) {
+.col-1-dt {width: 8.33%;}
+.col-2-dt {width: 16.66%;}
+.col-3-dt {width: 25%;}
+.col-4-dt {width: 33.33%;}
+.col-5-dt {width: 41.66%;}
+.col-6-dt {width: 50%;}
+.col-7-dt {width: 58.33%;}
+.col-8-dt {width: 66.66%;}
+.col-9-dt {width: 75%;}
+.col-10-dt {width: 83.33%;}
+.col-11-dt {width: 91.66%;}
+.col-12-dt {width: 100%;}
+}
+
+
+
